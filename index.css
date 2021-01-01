@@ -1,0 +1,225 @@
+/* initialisation */
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Roboto";
+}
+.div {
+  display: inline;
+}
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2% 10%;
+  justify-content: space-between;
+  padding: 10px;
+}
+.bouton {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: all 0.2s ease 0s;
+  font-size: 0.625rem;
+  padding: 1em 1.5em;
+  margin-left: 135px;
+}
+.country {
+  /* box-shadow: 10px 10px grey; */
+  margin-bottom: 3%;
+  border-radius: 10px;
+}
+.country:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px grey;
+}
+.paragraphs {
+  display: flex;
+  font-size: medium;
+  margin: 2% 10%;
+  justify-content: space-between;
+  padding: 50px;
+}
+.paragraphs p {
+  margin: 50px;
+}
+.title {
+  text-align: center;
+  color: #00b39b;
+  font-size: 2.125rem;
+  margin: 1em 0;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  height: 50px;
+}
+.patients {
+  background: #00ccb1;
+  color: white;
+  width: 32%;
+  border-radius: 10px;
+}
+.doctors {
+  background: #3d83df;
+  color: white;
+  width: 32%;
+  border-radius: 10px;
+}
+.clinics {
+  background: #1b2734;
+  color: white;
+  width: 32%;
+  border-radius: 10px;
+}
+.services {
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 345px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: all 0.2s ease 0s;
+  margin: 2% 10%;
+  padding: 10px;
+}
+/* navbar */
+li {
+  display: inline;
+}
+ul {
+  text-align: right;
+  color: #ababab;
+}
+.menu {
+  display: block;
+  padding: 0 0.6em;
+}
+.brodur {
+  border-radius: 10px;
+}
+.bouton {
+  bottom: 10;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.section1 {
+  color: #00b39b;
+  /* color: #fff; */
+  text-shadow: none;
+  box-sizing: inherit;
+}
+
+:after,
+:before {
+  box-sizing: inherit;
+}
+::selection {
+  background: #00b39b;
+  color: #fff;
+  text-shadow: none;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  color: #00b39b;
+  box-sizing: inherit;
+  justify-content: space-between;
+  font-family: Roboto, Arial, sans-serif;
+}
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  fill: grey;
+  justify-content: space-between;
+}
+.brands {
+  margin: 2.5rem auto 3.125rem;
+  zoom: 1;
+  max-width: 1015px;
+  padding: 0 20px;
+  position: relative;
+}
+li {
+  display: inline;
+  margin: 10px;
+}
+.stats {
+  background: #e5faf8;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 204, 177, 0.01) 5%,
+    rgba(61, 199, 223, 0.1)
+  );
+  padding: 1.875em 0 0.625em;
+  overflow: hidden;
+  margin: 3.125rem auto 5.5rem;
+  max-height: 680px;
+}
+.flex-container {
+  display: flex;
+  /* background-image: url("https://www.docplanner.com/img/logo.png");
+  background-size: 110%; */
+  justify-content: space-between;
+  /* grid-template-columns: 100px 200px 300px;
+  grid-template-rows: 100px 200px 300px; */
+}
+.vert-align {
+  display: table;
+  width: 30%;
+  height: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  height: 250px;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8125em;
+  margin: 1px;
+}
+.flex1 {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+
+  gap: 12px;
+  /* margin-right: 20px; */
+}
+.flex-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 25%;
+}
+.style1 {
+  text-align: center;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1em;
+  color: #fff;
+  font-size: 0.625rem;
+  padding: 1em 1.5em;
+  margin-left: 630px;
+  width: 15%;
+}
